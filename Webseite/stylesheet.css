@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.Überschrift_1{
+
+   
+    font-size: 300%;
+	text-transform: uppercase;
+	font-family: Georgia, serif;
+	transform: scale(1,2);
+	color: lightsteelblue;
+	display: inline-block;
+	/*width: 2em;*/
+	height: 1em;
+	margin: 0;
+	padding: 0;
+	text-shadow: 2px 2px black;
+	left: 265px;
+	position:absolute;
+	margin-top: 50px;
+   
+}
+.Überschrift_2{
+
+   
+    font-size: 300%;
+	text-transform: uppercase;
+	font-family: Georgia, serif;
+	transform: scale(1,2);
+	color: lightsteelblue;
+	display: inline-block;
+   /*width: 2em;*/
+	height: 1em;
+	margin: 0;
+	padding: 0;
+	text-shadow: 2px 2px black;
+	right: 200px;
+	position:absolute;
+	margin-top: 50px;
+   
+}
+.Leben{
+	
+	text-align: center;
+}
+.Einführung{
+
+	text-align: center;
+}
+.Auszeichnungen{
+	
+	text-align: center;
+}
+html {
+	height: 100%;
+}
+.Hintergrund{
+	background-image: url(che.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+.bild_unterseite{
+	
+	background-image: url(che_unterseite.jpg);
+	/*background-size:100%;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+	
+	
+
+
+
+.b_2{
+	position: absolute;
+	left: 160px;
+	margin-bottom: 2%;
+	margin-left: 5%;
+}
+
+.b_3{
+	position: absolute;
+	left: 160px;
+	margin-bottom: 2%;
+	margin-left: 5%;
+}
+
+.b_4{
+	position: absolute;
+	left: 160px;
+	margin-bottom: 2%;
+	margin-left: 5%;
+}
+
+
+
+body {
+	height: 100%;
+}
+
+
+.E_head{
+	float:left;
+	/*background-color: blue;*/
+	/*width: 50%;
+	height: 20%;*/
+	margin-left:30%;
+	text-transform: uppercase;
+	font-family: Georgia, serif;
+	color: lightsteelblue;
+	display: inline-block;
+	font-size: 4em;
+	text-shadow: 2px 2px black;
+	
+
+}
+.E_body{
+	float:left;
+	/*background-color: green;*/
+	width: 50%;
+	height: 60%;
+	margin-left: 5%;
+	margin-top: 10%;
+	
+	text-transform: uppercase;
+	font-family: Arial;
+	color: white;
+	display: inline-block;
+	font-size: 1em;
+	
+}
+.E_footer{
+	float:left;
+	width: 50%;
+	height: 20%;
+}
+
+.b_u{
+
+	position: absolute;
+	left: 160px;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+
+
+^/*////////////////////////////////////////*/
+
+nav ul {
+	width: 10em;
+	margin: 0;
+	padding: 0.2em 0.8em 0.8em;
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+
+nav li {
+	list-style: none;
+		display: inline-block;
+	margin: 0.4em;
+	padding: 0.2em 0.8em 0.8em;
+}
+
+nav a,
+nav span,
+nav h2 {
+	font-size: 25px;
+	display: block;
+	padding: 0.2em 0.8em 0.8em;
+
+	text-decoration: none;
+	font-weight: bold;
+	border: 2px solid transparent;
+	border-radius: 15px;
+	box-shadow: 0 5px 10px white inset;
+	color: gold;
+	
+	background-color: transparent;
+	margin-top: 350%;
+}
+
+nav a:focus,
+nav a:hover,
+nav a:active,
+nav span {
+	color: rgb(0,155,45);
+	background-color: transparent;
+	border-color: transparent;
+	
+}
+
+nav h2 {
+	font-size: 1em;
+	margin: 1.1em 0 0;
+	color: black;
+	border-color: transparent;
+	background-color: transparent;
+	box-shadow: none;
+}
+
+
+
+
